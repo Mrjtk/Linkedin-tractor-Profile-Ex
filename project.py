@@ -48,7 +48,7 @@ def google_scrap1():
                                                                                    j.writerow([link])
                         else:
                             pass
-                        print("-> ",link)
+                        
                 
 
 def google_cvs():
@@ -85,7 +85,7 @@ def google_cvs():
                 for link in all_results:
                         j.writerow([link])
                         sleep(0.5)
-                        print("-> ",link)
+                      
                 
 
 
